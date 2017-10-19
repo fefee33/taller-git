@@ -12,3 +12,8 @@ class Fraccion:
 		nuevo_numerador = self.num*otra.num
 		nuevo_denominador = self.den*otra.den
 		return Fraccion(nuevo_numerador, nuevo_denominador)
+    
+    def __add__(self, otro):
+        suma_den = otro.den * self.den
+        suma_num = sel
+        return "algo que esta mal"
